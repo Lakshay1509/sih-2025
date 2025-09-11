@@ -71,7 +71,7 @@ const Hero = () => {
 				<div className="text-center space-y-8">
 					{/* Trust Indicators */}
 					<div className="flex justify-center items-center space-x-6 mb-8">
-						<Badge className="bg-green-100 text-green-800 border-green-200 px-4 py-2">
+						<Badge className="hidden bg-green-100 text-green-800 border-green-200 px-4 py-2 md:flex">
 							<CheckCircle className="w-4 h-4 mr-2" />
 							Blockchain Secured
 						</Badge>
@@ -87,7 +87,7 @@ const Hero = () => {
 
 					{/* Main Headline */}
 					<div className="space-y-6">
-						<h1 className="text-6xl md:text-8xl font-black text-slate-900 leading-none tracking-tight">
+						<h1 className="text-4xl md:text-6xl  font-black text-slate-900 leading-none tracking-tight">
 							Stop Academic
 							<br />
 							<span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent animate-gradient">
@@ -96,7 +96,7 @@ const Hero = () => {
 						</h1>
 
 						<div className="max-w-4xl mx-auto">
-							<p className="text-xl tracking-wide md:text-2xl text-slate-500 font-light leading-relaxed mb-4">
+							<p className="md:text-xl tracking-wide  text-slate-500 font-light leading-relaxed mb-4">
 								The world&apos;s first{" "}
 								<span className="font-semibold text-slate-700">
 									smart certificate verification platform
@@ -116,7 +116,7 @@ const Hero = () => {
 						<Link href="/admin">
 							<Button
 								size="lg"
-								className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-12 py-4 text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 group"
+								className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-12 py-4 md:text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 group"
 							>
 								Start Free Verification
 								<ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
@@ -125,7 +125,7 @@ const Hero = () => {
 						<Button
 							variant="outline"
 							size="lg"
-							className="border-2 border-indigo-200 text-indigo-700 hover:bg-indigo-50 px-12 py-4 text-xl transition-all duration-300 group"
+							className="border-2 border-indigo-200 text-indigo-700 hover:bg-indigo-50 px-12 py-4 md:text-xl transition-all duration-300 group"
 						>
 							<Play className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
 							Watch Demo
