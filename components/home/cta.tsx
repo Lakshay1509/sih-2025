@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../ui/badge";
 import { Sparkles, ArrowRight, CheckCircle, Shield, Users, Play } from "lucide-react";
 import Link from "next/link";

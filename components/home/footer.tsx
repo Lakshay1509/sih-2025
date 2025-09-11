@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../ui/badge";
 import { CheckCircle, ScrollText, Shield } from "lucide-react";
 import AnimatedCounter from "../ui/animated-counter";
